@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 15px 15px;
+}
+
+ul {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+#todo {
+  border: 1px solid grey;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 17px;
+  margin-right: 10px;
+}
+
+ #todo::-webkit-input-placeholder {
+   padding-left: 10px;
+ }
+
+.template {
+  display: none;
+  background-color: lightgrey;
+}
+
+.todoText {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.temp {
+  display: none;
+}
+button {
+  background-color: transparent;
+
+}
+.fa-plus-circle {
+  cursor: pointer;
+  color: green;
+  font-size: 30px;
+}
+
+.fa-edit {
+  cursor: pointer;
+  color: lightgrey;
+  margin-left: 10px;
+}
+.fa-edit:hover {
+  color: blue;
+}
+
+.fa-trash {
+  color: lightgrey;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+.fa-trash:hover {
+  color: red;
+}
